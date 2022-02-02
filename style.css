@@ -12,6 +12,8 @@ body {
 
 #titulo {
     display: inline-block;
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 #minha_foto {
@@ -24,38 +26,74 @@ body {
     margin-left: 100px; 
 }
 
-#licoes_aprendidas {
+nav #licoes_aprendidas {
+    border: 1px solid blue;
     margin: 50px;
     padding: 10px;
-    border: 1px solid blue;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: navy
 }
 
-#licoes_a_aprender {
+nav #licoes_a_aprender {
     border: 1px solid olive;
     margin: 50px;
     padding: 10px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgreen;
 }
 
 #Blocos {
     border: 1px solid orange;
-    margin: 20px;
+    margin: 50px;
     padding: 10px;
+    font-style: italic;
+    font-size: 18px;
 }
 
 article {
     border: 1px solid red;
-    margin: 20px;
-    padding: 10px;
+    margin: 30px;
+    padding: 20px;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+section p {
+    border: 1px solid hotpink;
+    margin: 30px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.lado-esquerdo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+}
+
+.lado-direito {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
 }
 
 aside {
     border: 1px solid yellow;
-    margin: 20px;
-    padding: 10px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: darkolivegreen;
 }
 
 #rodape {
     border: 1px solid black;
-    margin: 20px;
-    padding: 10px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 14px;
+    color: darkslategrey
 }
