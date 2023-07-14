@@ -5,7 +5,7 @@ body {
 #cabecalho {
     position: fixed;
     top: 0;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 100%;
     text-align: center;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 nav #licoes_aprendidas {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 50px;
     padding: 10px;
     font-size: 18px;
@@ -36,7 +36,7 @@ nav #licoes_aprendidas {
 }
 
 nav #licoes_a_aprender {
-    border: 1px solid olive;
+    /* border: 1px solid olive; */
     margin: 50px;
     padding: 10px;
     font-size: 18px;
@@ -45,7 +45,7 @@ nav #licoes_a_aprender {
 }
 
 #Blocos {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin: 50px;
     padding: 10px;
     font-style: italic;
@@ -53,7 +53,7 @@ nav #licoes_a_aprender {
 }
 
 article {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 30px;
     padding: 20px;
     line-height: 26px;
@@ -62,7 +62,7 @@ article {
 }
 
 section p {
-    border: 1px solid hotpink;
+    /* border: 1px solid hotpink; */
     margin: 30px;
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -83,7 +83,7 @@ section p {
 }
 
 aside {
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     margin: 30px;
     padding: 20px;
     font-size: 18px;
@@ -91,7 +91,7 @@ aside {
 }
 
 #rodape {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 30px;
     padding: 20px;
     font-size: 14px;
